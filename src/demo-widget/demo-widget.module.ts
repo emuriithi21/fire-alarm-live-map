@@ -21,9 +21,9 @@ import '~styles/index.css';
             provide: HOOK_COMPONENTS,
             multi: true,
             useValue: {
-                id: 'acme.test.widget',
-                label: 'Test widget',
-                description: 'Displays some mirrored text',
+                id: 'acme.moro-map.widget',
+                label: 'Fire ALarm Live Map',
+                description: 'Displays a Live Map of Fire Alarms',
                 component: WidgetDemo,
                 configComponent: WidgetConfigDemo,
                 previewImage: require("~styles/previewImage.png"),
